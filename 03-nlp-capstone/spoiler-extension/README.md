@@ -1,4 +1,4 @@
-# Mental Health Advice Bot
+# Spoiler Detection
 
 This is the repo for the Spoiler Detection chrome extension capstone project.
 
