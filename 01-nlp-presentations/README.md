@@ -1,4 +1,4 @@
-# Onion Or Not
+# Paper Presentations
 This is the repo for the NLP presentations for the 2 papers: `A Neural Probabilistic Language Model` and `DeBERTa: Decoding-enhanced BERT with Disentangled Attention`
 
 # Group Work Assignment
