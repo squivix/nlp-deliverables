@@ -9,3 +9,4 @@ Omer Ahmed: 20%
 Zeyi Lu: 80%
 ```
 
+Future work on the project here: https://github.com/ZEYILU/spoiler-extension
