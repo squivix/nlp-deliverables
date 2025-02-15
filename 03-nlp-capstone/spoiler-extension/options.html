@@ -1,0 +1,28 @@
+<!-- options.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Spoiler Detector - Options</title>
+</head>
+<body>
+  <h1>Spoiler Detector Settings</h1>
+
+  <label for="spoiler-level">Spoiler Sensitivity:</label>
+  <select id="spoiler-level">
+    <option value="low">Low (only major twists/endings)</option>
+    <option value="medium" selected>Medium (important plot developments)</option>
+    <option value="high">High (even minor plot details)</option>
+  </select>
+  <br/><br/>
+
+  <label for="keywords">Custom Keywords (comma separated):</label><br/>
+  <textarea id="keywords" rows="3" cols="50" placeholder="e.g. dies, killed, death"></textarea>
+  <br/><br/>
+
+  <button id="save-btn">Save Settings</button>
+  <p id="status"></p>
+
+  <script src="options.js"></script>
+</body>
+</html>

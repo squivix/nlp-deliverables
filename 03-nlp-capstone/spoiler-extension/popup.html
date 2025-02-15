@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Spoiler Detector</title>
+  <style>
+    body { width: 250px; padding: 10px; font-family: Arial, sans-serif; }
+    textarea { width: 100%; height: 60px; }
+    select { width: 100%; }
+    button { width: 100%; margin-top: 5px; padding: 5px; }
+    #status { color: green; }
+  </style>
+</head>
+<body>
+  <h3>Spoiler Detector</h3>
+
+  <!-- 开关 -->
+  <label>
+    <input type="checkbox" id="enableDetect"/>
+    Enable Search Detection
+  </label>
+
+  <!-- 剧透等级 -->
+  <h4>Spoiler Sensitivity Level:</h4>
+  <select id="spoilerLevel">
+    <option value="low">Low (only major twists/endings)</option>
+    <option value="medium">Medium (important plot)</option>
+    <option value="high">High (even minor details)</option>
+  </select>
+
+  <h4>Keyword List (comma separated):</h4>
+  <textarea id="keywords" placeholder="Enter keywords, e.g., dies, killed, spoiler"></textarea>
+
+  <button id="saveBtn">Save Settings</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
